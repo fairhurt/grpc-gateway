@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	helloworldpb "github.com/fairhurt/grpc-gateway/proto/hello"
+	helloworldpb "grpc-gateway/proto/hello"
 )
 
 type server struct {
