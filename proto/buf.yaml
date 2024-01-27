@@ -1,0 +1,4 @@
+version: v1
+name: buf.build/fairhurt/grpc-gateway-example
+deps:
+  - buf.build/googleapis/googleapis
