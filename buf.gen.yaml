@@ -9,6 +9,5 @@ plugins:
   - plugin: grpc-gateway
     out: proto
     opt: paths=source_relative
-  # generate openapi documentation for api
-  # - plugin: openapiv2
-  #   out: gen/openapiv2
+  - plugin: buf.build/grpc-ecosystem/openapiv2:v2.19.0
+    out: proto
